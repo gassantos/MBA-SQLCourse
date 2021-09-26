@@ -39,3 +39,5 @@ Comece o processo clicando em **Restaurar**.
    2. Na etapa seguinte, defina a fonte de restauração como ***Arquivo de backup***. ![Iniciar a restauração](images/Restaura-Tela1.png)
    3. Após definida a fonte de restauração, as demais informações serão automaticamente preenchidas, então basta confirmar no botão **Restaurar**. ![Iniciar a restauração](images/Restaura-Tela2.png)
    4. Agora é só aguardar a **Restauração finalizar** e correr pro abraço :wink: ![Iniciar a restauração](images/Fim-Restauracao.png)
+
+Procedimento de restore finalizado com sucesso :bowtie:
