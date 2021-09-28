@@ -2,7 +2,7 @@
 
 Pessoal,
 
-Durante a aula foram apresentadas as ferramentas que usaremos durante nosso curso para as ATIVIDADES DE AVALIAÇÃO (INDIVIDUAL) e TRABALHO FINAL (GRUPO). Primordialmente, precisaremos de um banco de dados para estruturar e manipular os dados. Consequentemente, esse banco de dados requer seu armazenamento em SGBD, que neste curso será o SQL Server.
+Durante a aula foram apresentadas as ferramentas que usaremos em nosso curso para as ATIVIDADES DE AVALIAÇÃO (INDIVIDUAL) e TRABALHO FINAL (GRUPO). Primordialmente, precisaremos de um banco de dados para estruturar e manipular os dados. Consequentemente, esse banco de dados requer seu armazenamento em SGBD e neste curso será o SQL Server.
 
 #
 ## A) Inicie o download (e a instalação) dos seguintes executáveis:
