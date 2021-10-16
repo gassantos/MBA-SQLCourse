@@ -6,8 +6,8 @@ resultantes das consultas desenvolvidas por vocês.
 
 Com base nos Dados apresentados no AdventureWorksDW, vocês farão:
 
-I) Criar um DW com base nos dados produzidos na **parte 2 da Atividade 2** 
-  * Faça os relacionamentos necessários e que melhor convir ao seu modelo (tabela Fato e Dimensões)
+I) Criar um _DataMart_ ("Subdw" - específico a uma análise/tema) com base nos dados produzidos na **parte 2 da Atividade 2** 
+  * Crie novas tabelas e faça os relacionamentos necessários que melhor convir ao seu modelo (tabela Fato e Dimensões)
 
 II) Fiquem à vontade para apresentar visualizações gráficas com os dados persistidos no item I.
 
