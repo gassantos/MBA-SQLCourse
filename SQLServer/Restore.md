@@ -15,12 +15,18 @@ Caso não tenha feito o download dos arquivos de backup mencionados, acesse os l
 
 2. Acesse o *CONTEINER_ID* do MSSQL, executando:
 
+    No Linux/MacOs:
     ```bash
-        docker ps | grep mssql | awk {'print $1'}
+        docker ps | grep mssql
+    ```
+    No Windows:
+    ```bash
+        docker ps
     ```
 
 3. E faça a cópia do arquivo de backup para o contêiner:
 
+    _Copie o **CONTEINER_ID** apresentado pelo passo 2 e use no commando abaixo_.
     ```bash
         docker cp "diretorio-backup-file" conteiner_id:/home
     ```
