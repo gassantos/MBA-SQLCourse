@@ -26,7 +26,7 @@ Durante a aula foram apresentadas as ferramentas que usaremos em nosso curso par
 
 
 1. AdventureWorks (OLTP) - https://github.com/Microsoft/sql-server-samples/releases/download/adventureworks/AdventureWorks2017.bak
-2. AdventureWorks (OLAP) - https://github.com/Microsoft/sql-server-samples/releases/download/adventureworks/AdventureWorksDW2017.bak
+2. AdventureWorksDW (OLAP) - https://github.com/Microsoft/sql-server-samples/releases/download/adventureworks/AdventureWorksDW2017.bak
 
 #
 ## C) Com os downloads finalizados,  execute as etapas a seguir:
