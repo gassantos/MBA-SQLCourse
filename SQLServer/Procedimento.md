@@ -42,7 +42,9 @@ https://hub.docker.com/_/microsoft-mssql-server.
 3. Após a execução do Passo 1, execute no seu terminal:
     1. docker run -e "ACCEPT_EULA=Y" -e "SA_PASSWORD=yourStrong(!)Password" -p 1433:1433 -d mcr.microsoft.com/mssql/server:2017-latest
     2. A execução do Passo 3.1, deve durar entre 5 e 10min (Internet 200MB)
-    3. Agora para verificar o contêiner criado, execute no seu terminal: docker ps | grep mssql
+    3. Agora para verificar o contêiner criado, execute no seu terminal: docker ps
+    3.1. Se os passos 1 e 2 forem executados corretos, aparecerá no resultado: 
+    		--> CONTEINER ID com um hash (por exemplo, "0c4a1a032e02"), IMAGE (contendo "mcr.microsoft.com/mssql/server") e outros campos. 	 
 4. Agora vamos conectar o Azure Data Studio (ADS) ao contêiner mssql 
 5. Abra o ADS
 6. Siga os passos descritos em https://docs.microsoft.com/pt-br/sql/azure-data-studio/quickstart-sql-server?view=sql-server-ver15#connect-to-a-sql-server para preencher as informações de acordo com a imagem dos detalhes de conexão abaixo:
