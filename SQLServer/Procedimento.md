@@ -22,7 +22,7 @@ Durante a aula foram apresentadas as ferramentas que usaremos em nosso curso par
 ## B) Em seguida, faça download dos arquivos abaixo:
 
 
-### OBS.: Faremos download dos arquivos referentes aos arquivos 2017, compatível com a versão do SQL Server 2017 em Docker.
+### OBS.: Faremos download dos arquivos referentes aos arquivos 2017, compatível com a versão do SQL Server 2022 em Docker.
 
 
 1. AdventureWorks (OLTP) - https://github.com/Microsoft/sql-server-samples/releases/download/adventureworks/AdventureWorks2017.bak
@@ -40,7 +40,7 @@ https://hub.docker.com/_/microsoft-mssql-server.
 1. Primeiro, execute no seu terminal:  docker -v
 2. Esse comando deve ter um retorno semelhante a “Docker version 20.10.8, build 3967b7d”.
 3. Após a execução do Passo 1, execute no seu terminal:
-    1. docker run -e "ACCEPT_EULA=Y" -e "SA_PASSWORD=yourStrong(!)Password" -p 1433:1433 -d mcr.microsoft.com/mssql/server:2017-latest
+    1. docker run -e "ACCEPT_EULA=Y" -e "MSSQL_SA_PASSWORD=yourStrong(!)Password" -p 1433:1433 -d mcr.microsoft.com/mssql/server:2022-latest
     2. A execução do Passo 3.1, deve durar entre 5 e 10min (Internet 200MB)
     3. Agora para verificar o contêiner criado, execute no seu terminal: docker ps
     3.1. Se os passos 1 e 2 forem executados corretos, aparecerá no resultado: 
